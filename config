@@ -22,7 +22,7 @@ exec --no-startup-id nm-applet
 
 exec --no-startup-id blueman-applet
 
-# bindsym $mod+d exec --no-startup-id rofi -show filebrowser
+# bindsym $mod+Shift+p exec --no-startup-id rofi -show filebrowser
 bindsym $mod+d exec --no-startup-id rofi -show drun -show-icons
 
 # exec --no-startup-id nitrogen --restore
@@ -58,7 +58,7 @@ bindsym $mod+Shift+n exec thunar /
 bindsym $mod+c exec chromium
 
 # emacs
-bindsym $mod+Shift+e exec emacs
+# bindsym $mod+Shift+e exec emacs
 
 bindsym $mod+q kill
 
